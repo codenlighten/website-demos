@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>Website demos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@700;800&display=swap">
+<style>
+:root{--ink:#0f172a;--muted:#5b6475;--line:#e6e8ee}
+*{box-sizing:border-box}body{margin:0;font:400 17px/1.6 Inter,system-ui,sans-serif;color:var(--ink);background:#f5f7fb}
+.wrap{width:min(1080px,100% - 2.5rem);margin:0 auto;padding:5rem 0}
+h1{font:800 clamp(2rem,5vw,3rem)/1.1 "Plus Jakarta Sans",Inter,sans-serif;letter-spacing:-.02em;margin:0 0 .6rem}
+p.lead{color:var(--muted);font-size:1.15rem;max-width:620px;margin:0 0 3rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.6rem}
+a.card{display:block;text-decoration:none;color:inherit;background:#fff;border:1px solid var(--line);border-radius:20px;padding:2rem;
+box-shadow:0 1px 2px rgb(15 23 42/.06);transition:transform .25s,box-shadow .25s}
+a.card:hover{transform:translateY(-4px);box-shadow:0 20px 40px -14px rgb(15 23 42/.25)}
+.swatch{height:8px;border-radius:99px;margin-bottom:1.4rem}
+h2{font:800 1.4rem/1.2 "Plus Jakarta Sans",Inter,sans-serif;margin:0 0 .4rem}
+.card p{color:var(--muted);margin:0 0 1.2rem}.go{font-weight:600}
+footer{color:var(--muted);font-size:.9rem;margin-top:3rem}
+</style></head>
+<body><div class="wrap">
+<h1>Website demos</h1>
+<p class="lead">Sample small-business sites, each built from a single content file: responsive, fast, and ready to launch on the client's own domain. The businesses are fictional.</p>
+<div class="grid">
+<a class="card" href="valley-it/"><div class="swatch" style="background:linear-gradient(90deg,#4f46e5,#06b6d4)"></div><h2>Valley IT Support</h2><p>Managed IT company: services, onboarding steps, pricing page, contact form.</p><span class="go" style="color:#4f46e5">View demo →</span></a>
+<a class="card" href="ledger-tax/"><div class="swatch" style="background:linear-gradient(90deg,#0f766e,#d97706)"></div><h2>Ledger &amp; Oak Tax</h2><p>Tax and bookkeeping practice: services, three-step process, FAQ, booking form.</p><span class="go" style="color:#0f766e">View demo →</span></a>
+</div>
+<footer>Built by Greg Ward. Demo content only; forms do not send.</footer>
+</div></body></html>
